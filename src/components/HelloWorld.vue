@@ -21,6 +21,10 @@
 </template>
 
 <style scoped>
+h1 {
+  width: 100%;
+  text-align: center;
+}
 .content {
   text-align: left;
 }

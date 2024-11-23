@@ -2,7 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
-<template>
+<template class="body">
   <img class="img" src="/brain.png"/>
   <HelloWorld msg="Vite + Vue" />
 </template>

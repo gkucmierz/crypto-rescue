@@ -77,3 +77,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+body {
+  background: rgb(222,255,203);
+  background: linear-gradient(45deg, rgba(222,255,203,1) 0%, rgba(216,197,254,1) 100%);
+}
+::selection {
+  color: white;
+  background: gray;
+}
+
+.img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
