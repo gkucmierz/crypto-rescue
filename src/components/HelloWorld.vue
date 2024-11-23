@@ -5,9 +5,9 @@
   <div class="content">
   <h1>Odzyskiwanie kryptowalut</h1>
 
-  <p>Studium przypadku (use cases):</p>
+  <p>Studium przypadku (case study):</p>
 
-  <p>Główne kryptowaluty BTC, ETH (inne kryptowaluty indywidualne podejście)</p>
+  <p>Główne kryptowaluty BTC, ETH (inne kryptowaluty - indywidualne podejście)</p>
 
   <ul>
     <li>utracona część mnemonika (seed)</li>
@@ -16,7 +16,7 @@
     <li>stary plik wallet.dat (nieznane hasło, lub potencjalne informacje na temat hasła np. same cyfry, ilość znaków hasła)</li>
   </ul>
 
-  <p>Telegram: @gkucmierz</p>
+  <p>@gkucmierz</p>
   </div>
 </template>
 
