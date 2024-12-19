@@ -4,8 +4,6 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -79,8 +77,12 @@ button:focus-visible {
 }
 
 body {
-  background: rgb(222,255,203);
-  background: linear-gradient(45deg, rgba(222,255,203,1) 0%, rgba(216,197,254,1) 100%);
+  color: light-dark(rgba(0, 0, 0, 0.87), rgba(255, 255, 255, 0.87));
+  background: linear-gradient(
+    45deg,
+    light-dark(rgba(222,255,203,1), rgba(0,78,0,1)) 0%,
+    light-dark(rgba(216,197,254,1), rgba(60,0,166,1)) 100%
+  );
 }
 ::selection {
   color: white;
